@@ -2,14 +2,12 @@
 //  HDAppDelegate.h
 //  HLS Downloader
 //
-//  Created by Daniel Ericsson on 2013-04-27.
-//  Copyright (c) 2013 Monowerks. All rights reserved.
+//  Copyright (c) 2013 Daniel Ericsson.
+//  Distributed under the terms of 'The MIT License', http://opensource.org/licenses/mit-license.html
 //
 
 #import <Cocoa/Cocoa.h>
 
 @interface HDAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
 
 @end

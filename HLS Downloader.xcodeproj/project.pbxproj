@@ -7,20 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3383131173A6EED00A7B3C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3383130173A6EED00A7B3C9 /* SystemConfiguration.framework */; };
+		E34BB0FC172C864000A82458 /* MWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34BB0FB172C864000A82458 /* MWFoundation.framework */; };
+		E34BB103172C898500A82458 /* HDSegmentsDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E34BB102172C898500A82458 /* HDSegmentsDownloader.m */; };
+		E34CDA5E172C916800893B26 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34CDA5C172C916800893B26 /* AFNetworking.framework */; };
+		E34CDA5F172C916800893B26 /* MAKVONotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34CDA5D172C916800893B26 /* MAKVONotificationCenter.framework */; };
+		E34CDA60172C917900893B26 /* MWFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34BB0FB172C864000A82458 /* MWFoundation.framework */; };
+		E34CDA61172C917D00893B26 /* AFNetworking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34CDA5C172C916800893B26 /* AFNetworking.framework */; };
+		E34CDA62172C917D00893B26 /* MAKVONotificationCenter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34CDA5D172C916800893B26 /* MAKVONotificationCenter.framework */; };
 		E3F8F44A172C3B3000915E58 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8F449172C3B3000915E58 /* Cocoa.framework */; };
 		E3F8F454172C3B3000915E58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F8F452172C3B3000915E58 /* InfoPlist.strings */; };
 		E3F8F456172C3B3000915E58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8F455172C3B3000915E58 /* main.m */; };
 		E3F8F45A172C3B3000915E58 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E3F8F458172C3B3000915E58 /* Credits.rtf */; };
 		E3F8F45D172C3B3000915E58 /* HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8F45C172C3B3000915E58 /* HDAppDelegate.m */; };
 		E3F8F460172C3B3100915E58 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F8F45E172C3B3100915E58 /* MainMenu.xib */; };
+		E3F8F46C172C3D4000915E58 /* HDStreamDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8F46A172C3D4000915E58 /* HDStreamDocument.m */; };
+		E3F8F46D172C3D4000915E58 /* HDStreamDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F8F46B172C3D4000915E58 /* HDStreamDocument.xib */; };
+		E3F8F4AD172C44E000915E58 /* MWBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F8F4AC172C44E000915E58 /* MWBase.framework */; };
+		E3F8F4B1172C487500915E58 /* MWBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E3F8F4AC172C44E000915E58 /* MWBase.framework */; };
+		E3F8F4B7172C761300915E58 /* M3UPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8F4B4172C761300915E58 /* M3UPlaylist.m */; };
+		E3F8F4B8172C761300915E58 /* M3UPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8F4B6172C761300915E58 /* M3UPlaylistItem.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E3F8F4AE172C481900915E58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E3F8F4B1172C487500915E58 /* MWBase.framework in CopyFiles */,
+				E34CDA60172C917900893B26 /* MWFoundation.framework in CopyFiles */,
+				E34CDA61172C917D00893B26 /* AFNetworking.framework in CopyFiles */,
+				E34CDA62172C917D00893B26 /* MAKVONotificationCenter.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E3383130173A6EED00A7B3C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E34BB0FB172C864000A82458 /* MWFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MWFoundation.framework; path = External/MWFoundation.framework; sourceTree = "<group>"; };
+		E34BB101172C898500A82458 /* HDSegmentsDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSegmentsDownloader.h; sourceTree = "<group>"; };
+		E34BB102172C898500A82458 /* HDSegmentsDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSegmentsDownloader.m; sourceTree = "<group>"; };
+		E34CDA5C172C916800893B26 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = External/AFNetworking.framework; sourceTree = "<group>"; };
+		E34CDA5D172C916800893B26 /* MAKVONotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAKVONotificationCenter.framework; path = External/MAKVONotificationCenter.framework; sourceTree = "<group>"; };
 		E3F8F446172C3B3000915E58 /* HLS Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLS Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F8F449172C3B3000915E58 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		E3F8F44C172C3B3000915E58 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		E3F8F44D172C3B3000915E58 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E3F8F44E172C3B3000915E58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3F8F451172C3B3000915E58 /* HLS Downloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLS Downloader-Info.plist"; sourceTree = "<group>"; };
 		E3F8F453172C3B3000915E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3F8F455172C3B3000915E58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,6 +62,14 @@
 		E3F8F45B172C3B3000915E58 /* HDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAppDelegate.h; sourceTree = "<group>"; };
 		E3F8F45C172C3B3000915E58 /* HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAppDelegate.m; sourceTree = "<group>"; };
 		E3F8F45F172C3B3100915E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E3F8F469172C3D4000915E58 /* HDStreamDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDStreamDocument.h; sourceTree = "<group>"; };
+		E3F8F46A172C3D4000915E58 /* HDStreamDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDStreamDocument.m; sourceTree = "<group>"; };
+		E3F8F46B172C3D4000915E58 /* HDStreamDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDStreamDocument.xib; sourceTree = "<group>"; };
+		E3F8F4AC172C44E000915E58 /* MWBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MWBase.framework; path = External/MWBase.framework; sourceTree = "<group>"; };
+		E3F8F4B3172C761300915E58 /* M3UPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3UPlaylist.h; sourceTree = "<group>"; };
+		E3F8F4B4172C761300915E58 /* M3UPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3UPlaylist.m; sourceTree = "<group>"; };
+		E3F8F4B5172C761300915E58 /* M3UPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3UPlaylistItem.h; sourceTree = "<group>"; };
+		E3F8F4B6172C761300915E58 /* M3UPlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3UPlaylistItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +77,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3383131173A6EED00A7B3C9 /* SystemConfiguration.framework in Frameworks */,
+				E3F8F4AD172C44E000915E58 /* MWBase.framework in Frameworks */,
 				E3F8F44A172C3B3000915E58 /* Cocoa.framework in Frameworks */,
+				E34BB0FC172C864000A82458 /* MWFoundation.framework in Frameworks */,
+				E34CDA5E172C916800893B26 /* AFNetworking.framework in Frameworks */,
+				E34CDA5F172C916800893B26 /* MAKVONotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,20 +109,14 @@
 		E3F8F448172C3B3000915E58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3383130173A6EED00A7B3C9 /* SystemConfiguration.framework */,
+				E34CDA5C172C916800893B26 /* AFNetworking.framework */,
+				E34CDA5D172C916800893B26 /* MAKVONotificationCenter.framework */,
+				E3F8F4AC172C44E000915E58 /* MWBase.framework */,
+				E34BB0FB172C864000A82458 /* MWFoundation.framework */,
 				E3F8F449172C3B3000915E58 /* Cocoa.framework */,
-				E3F8F44B172C3B3000915E58 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E3F8F44B172C3B3000915E58 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E3F8F44C172C3B3000915E58 /* AppKit.framework */,
-				E3F8F44D172C3B3000915E58 /* CoreData.framework */,
-				E3F8F44E172C3B3000915E58 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		E3F8F44F172C3B3000915E58 /* HLS Downloader */ = {
@@ -85,6 +125,8 @@
 				E3F8F45B172C3B3000915E58 /* HDAppDelegate.h */,
 				E3F8F45C172C3B3000915E58 /* HDAppDelegate.m */,
 				E3F8F45E172C3B3100915E58 /* MainMenu.xib */,
+				E3F8F467172C3CDE00915E58 /* Models */,
+				E3F8F468172C3CEA00915E58 /* Controllers */,
 				E3F8F450172C3B3000915E58 /* Supporting Files */,
 			);
 			path = "HLS Downloader";
@@ -102,6 +144,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3F8F467172C3CDE00915E58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3F8F4B3172C761300915E58 /* M3UPlaylist.h */,
+				E3F8F4B4172C761300915E58 /* M3UPlaylist.m */,
+				E3F8F4B5172C761300915E58 /* M3UPlaylistItem.h */,
+				E3F8F4B6172C761300915E58 /* M3UPlaylistItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E3F8F468172C3CEA00915E58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E34BB101172C898500A82458 /* HDSegmentsDownloader.h */,
+				E34BB102172C898500A82458 /* HDSegmentsDownloader.m */,
+				E3F8F469172C3D4000915E58 /* HDStreamDocument.h */,
+				E3F8F46A172C3D4000915E58 /* HDStreamDocument.m */,
+				E3F8F46B172C3D4000915E58 /* HDStreamDocument.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +177,7 @@
 				E3F8F442172C3B3000915E58 /* Sources */,
 				E3F8F443172C3B3000915E58 /* Frameworks */,
 				E3F8F444172C3B3000915E58 /* Resources */,
+				E3F8F4AE172C481900915E58 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -157,6 +223,7 @@
 				E3F8F454172C3B3000915E58 /* InfoPlist.strings in Resources */,
 				E3F8F45A172C3B3000915E58 /* Credits.rtf in Resources */,
 				E3F8F460172C3B3100915E58 /* MainMenu.xib in Resources */,
+				E3F8F46D172C3D4000915E58 /* HDStreamDocument.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +236,10 @@
 			files = (
 				E3F8F456172C3B3000915E58 /* main.m in Sources */,
 				E3F8F45D172C3B3000915E58 /* HDAppDelegate.m in Sources */,
+				E3F8F46C172C3D4000915E58 /* HDStreamDocument.m in Sources */,
+				E3F8F4B7172C761300915E58 /* M3UPlaylist.m in Sources */,
+				E3F8F4B8172C761300915E58 /* M3UPlaylistItem.m in Sources */,
+				E34BB103172C898500A82458 /* HDSegmentsDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +336,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"/**",
+					"\"$(SRCROOT)/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HLS Downloader/HLS Downloader-Prefix.pch";
 				INFOPLIST_FILE = "HLS Downloader/HLS Downloader-Info.plist";
@@ -277,6 +353,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"/**",
+					"\"$(SRCROOT)/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HLS Downloader/HLS Downloader-Prefix.pch";
 				INFOPLIST_FILE = "HLS Downloader/HLS Downloader-Info.plist";
@@ -304,6 +385,7 @@
 				E3F8F465172C3B3100915E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
